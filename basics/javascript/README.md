@@ -1,0 +1,1 @@
+embed a simple script to a html page to show javascript functionalities
