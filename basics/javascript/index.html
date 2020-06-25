@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <title>Home</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>JavaScript</h1>
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png" width="300rem"/>
+        </header>
+        <main>
+            <div id="function-picker">
+                <input type="radio" name="function-picker" value="factorial" onclick="render(this)"/>
+                <label for="factorial">Factorial</label><br>
+                <input type="radio" name="function-picker" value="fibonacci" onclick="render(this)"/>
+                <label for="fibonacci">Fibonacci</label><br>
+                <input type="radio" name="function-picker" value="square" onclick="render(this)"/>
+                <label for="square">Square</label>
+            </div>
+            <input id="input-number" type="number" onchange="render(null)"/>
+            <h1 id="result">-</h1>
+            <img id="change-image" src="" width="300rem"/>
+        </main>
+        <footer>
+            <h1>2020</h1>
+            <nav>
+                <ul>
+                    <li><a href="https://facebook.com">Facebook</a></li>
+                    <li><a href="https://linkedin.com">LinkedIn</a></li>
+                    <li><a href="https://instagram.com">Instagram</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
