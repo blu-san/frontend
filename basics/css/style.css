@@ -1,0 +1,38 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f0e9e9;
+}
+
+a {
+    color: #575757;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+main {
+    margin-top: 5.5rem;
+    
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fffafa;
+    height: 5.5rem;
+}
+
+#header nav, #header h1 {
+    padding: 10px;   
+}
+
+nav ul {
+    list-style-type: none;
+}
